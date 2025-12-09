@@ -1,0 +1,23 @@
+node_modules
+cache
+artifacts/
+
+package-lock.json
+
+证书/
+
+# 环境变量文件（包含私钥等敏感信息）
+.env
+.env.local
+.env.*.local
+
+deployments/*.json
+!deployments/.gitkeep
+
+# PM2 日志
+logs/
+*.log
+
+# 部署信息（可能包含敏感信息）
+deployments/*.json
+!deployments/.gitkeep
